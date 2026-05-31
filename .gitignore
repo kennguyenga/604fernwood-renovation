@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Node (if you ever add tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Output / temp
+*.tmp
+*.bak
+*.log
+
+# Sensitive — never commit
+.env
+.env.local
+secrets/
+private/
+
+# Drafts and work-in-progress versions
+*_draft.html
+*_old.html
+*.draft
